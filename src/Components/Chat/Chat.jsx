@@ -91,7 +91,7 @@ const Chat = () => {
       </div>
 
       <div className="messages-container">
-        {/* Маппинг списка сообщений и рендеринг каждого сообщения */}
+        {/* Маппинг списка сообщений и рендеринг каждого сообщ */}
         {messages.map((message, index) => renderMessage(message, index))}
       </div>
     </div>
