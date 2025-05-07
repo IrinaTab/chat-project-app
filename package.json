@@ -7,8 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+    "setup": "npm install && npm run dev",
+    "deploy": "gh-pages -d dist",
+    "generate:readme": "npmd",
     "precommit": "npm run lint && npm run build",
-    "push": "git push origin master",
+    "push": "git push origin gh-pages",
     "commit": "git commit -m \"$(git status --short | head -n 1 | awk '{print $2}')\"",
     "pull": "git pull origin master",
     "status": "git status"
