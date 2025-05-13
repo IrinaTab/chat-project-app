@@ -37,6 +37,10 @@
     border: none;
     color: #ffffff;
   }
+  .input-btn-mob {
+    display: none;
+  }
+
   .input-btn:hover{
     border: none;
     outline: none;
