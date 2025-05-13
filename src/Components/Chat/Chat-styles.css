@@ -95,7 +95,9 @@
       display: none;
     }
     .input-btn-mob {
-      display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       background-color: rgb(197, 171, 223);
       box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.1);
       border: none;
@@ -103,6 +105,9 @@
       color: #ffffff;
       padding: 3px;
 
+    }
+    .input-img {
+      width: 70px;
     }
 
   }
