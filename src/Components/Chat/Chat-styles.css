@@ -40,7 +40,6 @@
   .input-btn-mob {
     display: none;
   }
-
   .input-btn:hover{
     border: none;
     outline: none;
@@ -91,4 +90,19 @@
     text-align: right;
     margin-top: 5px;
   }
-  
+  @media (max-width: 768px) {
+    .input-btn {
+      display: none;
+    }
+    .input-btn-mob {
+      display: block;
+      background-color: rgb(197, 171, 223);
+      box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.1);
+      border: none;
+      border-radius: 25px;
+      color: #ffffff;
+      padding: 3px;
+
+    }
+
+  }
