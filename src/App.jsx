@@ -10,7 +10,7 @@ import ScrollToTop from './Utils/ScrollToTop'
 
 function App() {
   return (
-    <div className="App center">
+    <div className="App">
         <Router>
 
           <ScrollToTop />
